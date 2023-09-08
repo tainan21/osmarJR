@@ -96,28 +96,29 @@ export const TopDestinationTexts = {
 }
 
 export const BookingStepsTexts = {
-    firstText: "Fácil e Rápido",
-    secondText: "Reserve sua próxima viagem em 3 passos simples",
+
+    firstText: "Lorem e Ipsom",
+    secondText: "Lorem ipsom lorem ipsom 3 lorem ipsom lorem ip",
     listOfSteps: [
         {
-            text: "Escolha seu Destino - Explore nosso mundo de opções e planeje sua próxima aventura em Pereiras."
+            text: "Lorem ipsom Lorem ipsom lorem ipsom Lorem ipsom Lorem ipsom lorem ipsom Lorem ipsom Lorem ipsom."
         },
         {
-            text: "Faça o Pagamento - Contribua para o progresso de Pereiras apoiando nossos projetos com um processo de pagamento fácil e seguro."
+            text: "Lorem ipsom Lorem ipsom lorem ipsom Lorem ipsom Lorem ipsom lorem ipsom Lorem ipsom Lorem ipsom."
         },
         {
-            text: "Chegue ao Aeroporto na Data Selecionada - Prepare-se para decolar rumo ao futuro brilhante de Pereiras na data escolhida."
+            text: "Lorem ipsom Lorem ipsom lorem ipsom Lorem ipsom Lorem ipsom lorem ipsom Lorem ipsom Lorem ipsom."
         }
     ],
     cardOne:
     {
-        name: "Viagem para Grécia",
+        name: "Evento X",
         date: "14-29 de Junho  |  por Robbin Jobs",
-        people: "24 pessoas embarcando"
+        people: "24 pessoas confirmaram"
     },
     cardTwo: {
-        status: "Em Andamento",
-        destination: "Viagem a Roma",
+        status: "Construçãp y",
+        destination: "Em breve",
         completion: "40% Concluído"
     }
 
@@ -158,7 +159,7 @@ export const NewsletterTexts = {
 
 
 export const FooterTexts = {
-    underLogoText: "Reserve sua viagem em minutos, tenha controle total por muito mais tempo.",
+    underLogoText: "Lorem ipsom, lorem ipson.",
     quickLinks: {
         caption: "Links Rápidos",
         links: [
