@@ -128,7 +128,7 @@ export const TestimonialTexts = {
     secondText: "O que as pessoas dizem sobre Nós.",
     feedBacks: [
         {
-            text: "f",
+            text: "Foi incrível como o nosso dedicado líder, o Osmar, transformou nossa querida cidade, Pereiras, em um lugar ainda melhor para todos nós. Desde o início de seu mandato, ele trabalhou incansavelmente para melhorar nossa qualidade de vida. Sua visão e determinação foram inegavelmente inspiradoras",
             person: "Júlia Calaça",
             location: "Pereiras, São benedito"
         },
