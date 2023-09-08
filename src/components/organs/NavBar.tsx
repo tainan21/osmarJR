@@ -1,17 +1,13 @@
 import { useState, useEffect } from "react"
-import { Image } from "../atoms/Image";
-import { Button } from "../atoms/Button"
-import Logo from "../../assets/logo1.png"
 import { NavButtons, NavLinks } from "../particles/DataLists"
 import { List } from "../atoms/List";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { ArrowCircleRight, CirclesFour } from "@phosphor-icons/react";
 import { Slide } from "react-awesome-reveal";
 
 
 
 const NavBar = () => {
-    const navigate = useNavigate()
 
     const [open, setOpen] = useState(false)
     // const [scrollY, setScrollY] = useState(0)
@@ -51,9 +47,8 @@ const NavBar = () => {
                         </ul>
                         <ul className="flex items-center justify-center gap-6">
                             {
-                                NavButtons.map((navbutton, index) => (
+                                NavButtons.map((index) => (
                                     <List className="w-full" key={index}>
-                                        <Button onClick={() => navigate(navbutton.url)} type="button" className={`${navbutton.name === "Signup" ? "border-2 border-gray-950 before:top-0" : "before:bottom-0 border-b-2 border-transparent hover:border-gray-950"} py-2 px-8 relative z-10 before:content-[''] before:absolute before:left-0 before:w-full before:h-0 before:bg-color2 before:-z-10 hover:before:h-full before:transition-all before:duration-300 before:ease-in text-base`}>{navbutton.name}</Button>
                                     </List>
                                 ))
                             }
@@ -91,9 +86,8 @@ const NavBar = () => {
                     </section>
                     <ul className="w-full flex items-center justify-center pb-24 gap-4">
                         {
-                            NavButtons.map((navbutton, index) => (
+                            NavButtons.map((index) => (
                                 <List className="w-auto" key={index}>
-                                    <Button onClick={() => navigate(navbutton.url)} type="button" className={`${navbutton.name === "Signup" ? "border-2 border-gray-950 before:top-0" : "before:bottom-0 border-b-2 border-white hover:border-gray-950"} py-1.5 px-5 relative z-10 before:content-[''] before:absolute before:left-0 before:w-full before:h-0 before:bg-color2 before:-z-10 hover:before:h-full before:transition-all before:duration-300 before:ease-in text-base`}>{navbutton.name}</Button>
                                 </List>
                             ))
                         }
